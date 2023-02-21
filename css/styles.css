@@ -1,0 +1,131 @@
+/*Colors*/
+:root {
+	--background-color: #1e1e1e;
+	--text-color: #f3f3f3;
+	--focus-hover-color: #bc1a1a;
+}
+/*Colors*/
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+/*To reset properties*/
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+/*To reset properties*/
+
+/* Header-Style */
+.header {
+	background: linear-gradient(
+		256.51deg,
+		rgba(111, 102, 102, 0.9) 26.96%,
+		rgba(16, 15, 15, 0.9) 79.08%,
+		rgba(16, 15, 15, 0.9) 79.08%
+	);
+}
+.header-logo {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--text-color);
+}
+.header-logo:hover,
+.header-logo:focus {
+	color: var(--focus-hover-color);
+}
+.header-link {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.25;
+	color: var(--text-color);
+}
+.header-link:hover,
+.header-link:focus {
+	color: var(--focus-hover-color);
+}
+.header-button {
+	font-family: "Montserrat";
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 1.25;
+	color: var(--text-color);
+	border: 1px solid var(--text-color);
+	background-color: var(--background-color);
+	border-radius: 16px;
+	cursor: pointer;
+}
+.header-button:hover,
+.header-button:focus {
+	color: var(--focus-hover-color);
+	border: 1px solid var(--focus-hover-color);
+}
+/* Header-Style */
+
+/* Hero-Style */
+.hero-section {
+	background: linear-gradient(
+		228.52deg,
+		rgba(111, 102, 102, 0.9) 4.71%,
+		rgba(16, 15, 15, 0.9) 39.77%,
+		rgba(16, 15, 15, 0.9) 44.21%
+	);
+}
+.hero-title {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 1.21;
+	color: var(--text-color);
+}
+.hero-subject {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 1.22;
+	color: var(--text-color);
+}
+.hero-love {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.22;
+	color: var(--focus-hover-color);
+}
+.hero-button {
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.23;
+	color: var(--text-color);
+	background: rgba(188, 26, 26, 0.2);
+	border-radius: 16px;
+	cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+	background: rgba(188, 26, 26, 0.5);
+}
+.hero-under-button-number {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.22;
+	color: var(--text-color);
+}
+.hero-under-button-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	color: var(--text-color);
+}
+.hero-offers-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	color: var(--text-color);
+}
+.her-social-network-item {
+}
+.hero-social-network-img {
+}
