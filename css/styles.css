@@ -1,6 +1,6 @@
 /*Colors*/
 :root {
-	--background-color: #1e1e1e;
+	--background-color: #100f0f;
 	--text-color: #f3f3f3;
 	--focus-hover-color: #bc1a1a;
 }
@@ -125,7 +125,40 @@ body {
 	line-height: 1.25;
 	color: var(--text-color);
 }
-.her-social-network-item {
+/* Hero-Style */
+/* Sauce-Style */
+.sauce-subject {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.22;
+	color: var(--text-color);
 }
-.hero-social-network-img {
+.sauce-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	color: var(--text-color);
 }
+.sauce-button {
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--text-color);
+	background: rgba(188, 26, 26, 0.2);
+	border-radius: 8px;
+	cursor: pointer;
+}
+.sauce-button:focus,
+.sauce-button:hover {
+	background: rgba(188, 26, 26, 0.5);
+}
+/* Sauce-Style */
+/* Video-Style */
+.video-text {
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 1.22;
+	color: var(--text-color);
+}
+/* Video-Style */
