@@ -67,14 +67,6 @@ body {
 /* Header-Style */
 
 /* Hero-Style */
-.hero-section {
-	background: linear-gradient(
-		228.52deg,
-		rgba(111, 102, 102, 0.9) 4.71%,
-		rgba(16, 15, 15, 0.9) 39.77%,
-		rgba(16, 15, 15, 0.9) 44.21%
-	);
-}
 .hero-title {
 	font-weight: 500;
 	font-size: 64px;
@@ -124,6 +116,9 @@ body {
 	font-size: 16px;
 	line-height: 1.25;
 	color: var(--text-color);
+}
+.hero-social-network-img {
+	background: var(--background-color);
 }
 /* Hero-Style */
 /* Sauce-Style */
