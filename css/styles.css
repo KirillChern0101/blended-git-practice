@@ -123,12 +123,14 @@ img {
 	font-size: 64px;
 	line-height: 1.21;
 	color: var(--text-color);
+	margin-bottom: 24px;
 }
 .hero-subject {
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 1.22;
 	color: var(--text-color);
+	margin-bottom: 48px;
 }
 .hero-love {
 	font-weight: 900;
@@ -143,12 +145,20 @@ img {
 	line-height: 1.23;
 	color: var(--text-color);
 	background: rgba(188, 26, 26, 0.2);
+	border: 1px;
 	border-radius: 16px;
 	cursor: pointer;
+	padding: 20px 84px;
+	display: inline-block;
 }
 .hero-button:hover,
 .hero-button:focus {
 	background: rgba(188, 26, 26, 0.5);
+}
+.hero-under-button {
+	display: flex;
+}
+.hero-item {
 }
 .hero-under-button-number {
 	font-weight: 600;
