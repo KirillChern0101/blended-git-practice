@@ -225,9 +225,7 @@ img {
 	line-height: 1.25;
 	color: var(--text-color);
 }
-.hero-social-network {
-	margin-left: 47px;
-}
+
 .hero-social-network-item:not(:last-child) {
 	margin-bottom: 32px;
 }
